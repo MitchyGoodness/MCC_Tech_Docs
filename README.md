@@ -18,35 +18,38 @@ MacBook connections (two HDMI outputs, one HDMI input, and one audio jack for ou
 
 * One HDMI output is the raw, unmodified output.
 
-It is displayed on the side stage TVs and can be used as slides on the live stream.
-It’s fed into the HDMI splitter (mounted at the bottom of the audio cart) via a flat HDMI cable labeled “Computer”.
-That same feed is returned from the audio cart via a flat HDMI cable, which is labeled “RESI”.
-Plug it into either INPUT 7 or INPUT 8.
-![Back of the RESI](/images/RESI/back.jpeg)
+  It is displayed on the side stage TVs and can be used as slides on the live stream.
+  It’s fed into the HDMI splitter (mounted at the bottom of the audio cart) via a flat HDMI cable labeled “Computer”.
+  That same feed is returned from the audio cart via a flat HDMI cable, which is labeled “RESI”.
+  Plug it into either INPUT 7 or INPUT 8.
+  ![Back of the RESI](/images/RESI/back.jpeg)
 
-* The other HDMI output is for lyrics and is often called “lower-third” since the content is aligned to the bottom and limited to the lower third of the screen.
+* The other HDMI output is for lyrics.
 
-It feeds directly into the RESI through either `INPUT 7` or `INPUT 8`.
-Any HDMI cable can be used route the feed.
+  It is often called “lower-third” since the content is aligned to the bottom and limited to the lower third of the screen.
+  It feeds directly into the RESI through either `INPUT 7` or `INPUT 8`.
+  Any HDMI cable can be used route the feed.
 
 * HDMI Input is for video capture or recording:
 
-Use the Video Capture USB dongle.
-Record use [OBS Studio](https://obsproject.com/) which should already be installed on the MacBook.
-Plug into `PROGRAM OUT`.
-Confirm `PROGRAM OUT` is working, as it has not been working previously.
-If `PROGRAM OUT` is not working, plug into `AUX OUT` instead.
-From the RESI settings, go to the `AUX` menu, and set `source` to `PROGRAM`.
+  Use the Video Capture USB dongle.
+  Record use [OBS Studio](https://obsproject.com/) which should already be installed on the MacBook.
+  Plug into `PROGRAM OUT`.
+  Confirm `PROGRAM OUT` is working, as it has not been working previously.
+  If `PROGRAM OUT` is not working, plug into `AUX OUT` instead.
+  From the RESI settings, go to the `AUX` menu, and set `source` to `PROGRAM`.
 
 * Audio output
 
-Videos played on the MacBook send audio to the audio cart via the 3.5mm audio cable coming from the audio cart.
+  Videos played on the MacBook send audio to the audio cart via the 3.5mm audio cable coming from the audio cart.
 
 ## RESI Setup:
 
 * Set DSK1 (down stream key 1) cut and fill to either `INPUT 7` or `INPUT 8`, whichever has the feed for lyrics (lower-third).
-  See the red highlight in the attached picture of the RESI board.
-![RESI DSK1 Buttons](/images/RESI/front_DSK1_buttons.jpeg) 
+  See the red highlight, if you want to use the buttons to set the sources.
+  ![RESI DSK1 Buttons](/images/RESI/front_DSK1_buttons.jpeg)
+  See the next picture, if you want to use the `Downstream Key 1` menu to set the sources.
+  ![RESI DSK1 Sources Menu](/images/RESI/settings_DSK1_sources.jpg)
 
 Or here:
 * Turn off “Pre Multiplied Key”
