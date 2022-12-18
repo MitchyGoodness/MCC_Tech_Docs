@@ -5,7 +5,6 @@ Documentation of the AV system used by Multiply Christian Church to host a servi
 ## Updating this Documentation
 
 Research Markdown syntax to learn how to modify files such as this `README.md` file.
-
 Navigate to [draw.io](https://draw.io) to modify `*.drawio` files such as the main diagram.
 Export the modified diagram to an image format and link to it in the `README.md` to update it here.
 
@@ -25,9 +24,9 @@ That same feed is returned from the audio cart via a flat HDMI cable, which is l
 Plug it into either INPUT 7 or INPUT 8.
 ![Back of the RESI](/images/RESI/back.jpeg)
 
-* The other HDMI output is for the “lower third” (only has lyrics positioned in the lower third of the screen).
+* The other HDMI output is for lyrics and is often called “lower-third” since the content is aligned to the bottom and limited to the lower third of the screen.
 
-It feeds directly into the RESI through either INPUT 7 or INPUT 8.
+It feeds directly into the RESI through either `INPUT 7` or `INPUT 8`.
 Any HDMI cable can be used route the feed.
 
 * HDMI Input is for video capture or recording:
@@ -37,7 +36,7 @@ Record use [OBS Studio](https://obsproject.com/) which should already be install
 Plug into `PROGRAM OUT`.
 Confirm `PROGRAM OUT` is working, as it has not been working previously.
 If `PROGRAM OUT` is not working, plug into `AUX OUT` instead.
-From the RESI settings, setting AUX source to `PROGRAM`.
+From the RESI settings, go to the `AUX` menu, and set `source` to `PROGRAM`.
 
 * Audio output
 
@@ -45,8 +44,9 @@ Videos played on the MacBook send audio to the audio cart via the 3.5mm audio ca
 
 ## RESI Setup:
 
-* Set down stream key 1 ( aka DSK 1) cut and fill to the feed with the lower third feed.
+* Set DSK1 (down stream key 1) cut and fill to either `INPUT 7` or `INPUT 8`, whichever has the feed for lyrics (lower-third).
   See the red highlight in the attached picture of the RESI board.
+![RESI DSK1 Buttons](/images/RESI/front_DSK1_buttons.jpeg) 
 
 Or here:
 * Turn off “Pre Multiplied Key”
