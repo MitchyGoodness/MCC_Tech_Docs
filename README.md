@@ -14,24 +14,28 @@ Export the modified diagram to an image format and link to it in the `README.md`
 
 ## MacBook
 
-MacBook connections (two HDMI outputs, one HDMI input, and one audio jack for output):
+The MacBook has 4 USB-C ports and one 3.5mm audio jack for TRS (tip ring sleeve) connections.
+These ports are used for two HDMI outputs, one HDMI input, one audio output, and the power brick to charge the MacBook.
 
-* One HDMI output is the raw, unmodified output.
+### First HDMI output
 
+  This is for the raw, unmodified output.
   It is displayed on the side stage TVs and can be used as slides on the live stream.
   It’s fed into the HDMI splitter (mounted at the bottom of the audio cart) via a flat HDMI cable labeled “Computer”.
   That same feed is returned from the audio cart via a flat HDMI cable, which is labeled “RESI”.
   Plug it into either INPUT 7 or INPUT 8.
   ![Back of the RESI](/images/RESI/back.jpeg)
 
-* The other HDMI output is for lyrics.
+#### Second HDMI output 
 
+  This is for song lyrics.
   It is often called “lower-third” since the content is aligned to the bottom and limited to the lower third of the screen.
   It feeds directly into the RESI through either `INPUT 7` or `INPUT 8`.
   Any HDMI cable can be used route the feed.
 
-* HDMI Input is for video capture or recording:
+### HDMI Input 
 
+  This is for video capture and recording.
   Use the Video Capture USB dongle.
   Record use [OBS Studio](https://obsproject.com/) which should already be installed on the MacBook.
   Plug into `PROGRAM OUT`.
@@ -39,34 +43,28 @@ MacBook connections (two HDMI outputs, one HDMI input, and one audio jack for ou
   If `PROGRAM OUT` is not working, plug into `AUX OUT` instead.
   From the RESI settings, go to the `AUX` menu, and set `source` to `PROGRAM`.
 
-* Audio output
+### Audio output
 
-  Videos played on the MacBook send audio to the audio cart via the 3.5mm audio cable coming from the audio cart.
+  Videos played on the MacBook send audio to the audio cart via the 3.5mm male TRS audio cable coming from the audio cart.
 
-## RESI Setup:
+## RESI
 
-* Set DSK1 (down stream key 1) cut and fill to either `INPUT 7` or `INPUT 8`, whichever has the feed for lyrics (lower-third).
+### Lyrics
+  Set DSK1 (down stream key 1) cut and fill to either `INPUT 7` or `INPUT 8`, whichever has the feed for lyrics (lower-third).
   See the red highlight, if you want to use the buttons to set the sources.
   ![RESI DSK1 Buttons](/images/RESI/front_DSK1_buttons.jpeg)
   See the next picture, if you want to use the `Downstream Key 1` menu to set the sources.
   ![RESI DSK1 Sources Menu](/images/RESI/settings_DSK1_sources.jpg)
 
-Or here:
-* Turn off “Pre Multiplied Key”
-* Setting `Clip` and `Gain` to `0%`.
+### Picture in Picture 
+  Hitting one of the PIP buttons (circled in yellow and labeled “DVE # PIP”) displays the PIP in preview and “ties” it to the next transition.
+  To remove PIP, hit “Background” (see the purple highlight).
+  ![RESI PIP Buttons](/imgaes/RESI/)
 
-If you want to stop there, that would be enough to get lyrics running when needed. To bring lyrics up hit “DSK 1 Auto” circled in black in the first picture.
+  The buttons, with “tie” in them, ties that setting to the next transition.
+  Transitions cycle between `Preview` and `Program`.
+  Any tied setting will display in `Preview` (or `Program` depending on if it's live or not) before the transition.
 
-If you want to add a black background to lyrics, here are the settings I use:
-
-Clip and gain only show if the pre multiplied Key is off.
-
-If you want to try Picture in Picture (“DVE # PIP” circled in yellow in the first picture) here’s what I figured out very recently:
-* Hitting one of the PIP buttons displays the PIP in preview and “ties” it to the next transition.
-* To remove PIP hit “Background” circled in purple here
-
-* If something has “tie” set, it means that setting is tied to the next transition. Hitting “Auto”, circled in blue, will cause the tied effect to go from “Preview” view  to “Program” view. It can also go from “Program” view to “Preview” view depending on where the effect starts from.
-
-## Audio Setup:
+## Audio
 
 //TODO: Depict “channels” on the board and how they correspond to the audio cart snake.
