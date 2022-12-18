@@ -57,9 +57,11 @@ These ports are used for two HDMI outputs, one HDMI input, one audio output, and
   ![RESI DSK1 Sources Menu](/images/RESI/settings_DSK1_sources.jpg)
 
 ### Picture in Picture 
-  Hitting one of the PIP buttons (circled in yellow and labeled “DVE # PIP”) displays the PIP in preview and “ties” it to the next transition.
-  To remove PIP, hit “Background” (see the purple highlight).
-  ![RESI PIP Buttons](/imgaes/RESI/)
+  Hitting one of the PIP buttons (see the yellow highlight) displays the PIP in preview and “ties” it to the next transition.
+  To remove PIP, hit the “Background” button (see the purple highlight), while the PIP is in `Preview`.
+  :warning: **Hitting the “Background” button while the PIP is in `Program` causes strange behavior.**
+  **Transition to `Preview` first!**
+  ![RESI PIP Buttons](/images/RESI/front_pip_buttons.jpg)
 
   The buttons, with “tie” in them, ties that setting to the next transition.
   Transitions cycle between `Preview` and `Program`.
