@@ -4,7 +4,7 @@ Documentation of the AV system used by Multiply Christian Church to host a servi
 
 ## Updating this Documentation
 
-This is a git repository, and needs to be (forked)[https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project] before it can be edited.
+This is a git repository, and needs to be [forked](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) before it can be edited.
 
 Research Markdown syntax to learn how to modify files such as this `README.md` file.
 Navigate to [draw.io](https://draw.io) to modify `*.drawio` files such as the main diagram.
